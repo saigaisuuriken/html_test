@@ -1,9 +1,64 @@
-<html>
-<head><title>災害数理研HP</title></head>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>災害数理 Lab.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .header {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .header .blue { color: blue; }
+        .header .red { color: red; }
+        .main-image {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+        .info {
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .blue { color: blue; }
+        .red { color: red; }
+        .grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .grid img {
+            width: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
 <body>
-    自然（水・土・風）の理を知り，
-    災害に潜む不確実性を数量化し，
-    数理という学問の刃で災害に立ち向かう！
+    <div class="header">
+        <span class="blue">災害</span><span class="red">数理</span> <b>Lab.</b>
+    </div>
+    <img src="image.png" alt="研究概要" class="main-image">
+    <div class="info">
+        自然（水・土・風）の<span class="highlight">理</span>を知り、<br>
+        <span class="blue">災害</span>に潜む不確実性を<span class="red">数</span>量化し、<br>
+        <span class="red">数理</span>という学問の刃で災害に立ち向かう！
+    </div>
+    <div class="grid">
+        <img src="machine_learning.png" alt="機械学習">
+        <img src="supercomputer.png" alt="スパコン">
+    </div>
 </body>
 </html>
-
